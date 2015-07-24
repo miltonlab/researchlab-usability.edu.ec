@@ -19,6 +19,21 @@ readHtml <- function (name, file) {
   table
 }
 
+
 readExcel <- function(name, file) {
   
+}
+
+readCsv <- function(name, file){
+  table<-read.table(file, sep = ';', skip=1)
+  table[, 6] <- sapply(
+    table[,6], 
+    function(x) as.numeric(gsub('%', '',x))
+  )
+  table <- table[, c(1,6)]
+  rownames(table) <- table[,1]
+  table[,1] <- NULL
+  table <- t(table)
+  rownames(table)<-c(name)
+  table  
 }
