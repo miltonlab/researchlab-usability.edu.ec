@@ -1,0 +1,25 @@
+Criterios propuestos por orden de prioridad de arreglo;;;VO;VR;Inc %
+BU5;Búsqueda;Sistema de búsqueda simple y claro;1;10;346154%
+BU8;Búsqueda;Asiste al usuario en caso de no poder ofrecer resultados para una consultada dada;0;10;192308%
+EN9;Estructura y Navegación;No hay enlaces rotos;NTS;S;192308%
+EN8;Estructura y Navegación;No hay redundancia de enlaces;NTS;S;192308%
+BU7;Búsqueda;Muestra los resultados de la búsqueda de forma comprensible para el usuario;1;10;173077%
+AY5;Ayuda;FAQs (si la hay), correcta la redacción de las respuestas;0;10;0.96154%
+AY4;Ayuda;FAQs (si la hay), correcta la elección como la redacción de las preguntas;0;10;0.96154%
+AY3;Ayuda;Se ofrece ayuda contextual en tareas complejas;NTS;S;0.96154%
+AY2;Ayuda;Fácil acceso y retorno al/del sistema de ayuda;0;10;0.96154%
+AY1;Ayuda;"El enlace a la sección de Ayuda, colocado en una zona visible y ""estándar""";NTS;S;0.96154%
+BU6;Búsqueda;Permite la búsqueda avanzada;0;10;0.96154%
+EM5;Elementos Multimedia;Se ha evitado el uso de animaciones cíclicas;NTS;S;0.96154%
+EF6;Entendibilidad y Facilidad en la interacción;Si se usan menús desplegables, orden coherente o alfabético;NTS;S;0.96154%
+AG8;Aspectos Generales;Se da soporte a otro/s idioma/s;NTS;S;0.96154%
+EF7;Entendibilidad y Facilidad en la interacción;Si el usuario tiene que rellenar un campo, las opciones disponibles se pueden seleccionar en vez de tener que escribirlas;NEP;S;0.721153%
+EN10;Estructura y Navegación;No hay enlaces que lleven a la misma página que se está visualizando;NTS;S;0.480774%
+EN2;Estructura y Navegación;Estructura de organización y navegación adecuadas;8;10;0.384613%
+LA5;Layout de la página;Uso correcto del espacio visual de la página;7;10;0.28846%
+LA2;Layout de la página;Se ha evitado la sobrecarga informativa;NPI;S;0.240387%
+LA6;Layout de la página;"Se utiliza correctamente la jerarquía visual para expresar las relaciones del tipo ""parte de"" entre los elementos de la página";8;10;0.192307%
+AG1;Aspectos Generales;Objetivos del sitio web concretos y bien definidos;9;10;0.192307%
+EN3;Estructura y Navegación;Organización de elementos acorde con las convenciones;9;10;0.0961533%
+II1;Identidad e Información;Identidad o Logotipo significativo, identificable y suficientemente visible;8;10;0.0961533%
+AG5;Aspectos Generales;Diseño general del sitio web reconocible;9;10;0.0961533%

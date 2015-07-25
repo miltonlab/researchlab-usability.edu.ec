@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:earl="http://www.w3.org/ns/earl#"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cnt="http://www.w3.org/2007/content#"
+ xmlns:ptr="http://www.w3.org/2009/pointers#"
+ xmlns:foaf="http://xmlns.com/foaf/spec/"
+ xml:base="https://www.prometheus.es/earl/reportEscuela Superior Politécnica Agropecuaria de Manabí-pcl_32-23-07-2015#">
+<earl:Assertion rdf:ID="assertAG1">
+<earl:result rdf:resource="#resultAG1"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AG1"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAG2">
+<earl:result rdf:resource="#resultAG2"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AG2"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAG3">
+<earl:result rdf:resource="#resultAG3"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AG3"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAG4">
+<earl:result rdf:resource="#resultAG4"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AG4"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAG5">
+<earl:result rdf:resource="#resultAG5"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AG5"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAG6">
+<earl:result rdf:resource="#resultAG6"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AG6"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAG7">
+<earl:result rdf:resource="#resultAG7"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AG7"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAG8">
+<earl:result rdf:resource="#resultAG8"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AG8"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAG9">
+<earl:result rdf:resource="#resultAG9"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AG9"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAG10">
+<earl:result rdf:resource="#resultAG10"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AG10"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertII1">
+<earl:result rdf:resource="#resultII1"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/II1"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertII2">
+<earl:result rdf:resource="#resultII2"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/II2"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertII3">
+<earl:result rdf:resource="#resultII3"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/II3"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertII4">
+<earl:result rdf:resource="#resultII4"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/II4"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertII5">
+<earl:result rdf:resource="#resultII5"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/II5"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertII6">
+<earl:result rdf:resource="#resultII6"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/II6"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertII7">
+<earl:result rdf:resource="#resultII7"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/II7"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN1">
+<earl:result rdf:resource="#resultEN1"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN1"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN2">
+<earl:result rdf:resource="#resultEN2"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN2"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN3">
+<earl:result rdf:resource="#resultEN3"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN3"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN4">
+<earl:result rdf:resource="#resultEN4"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN4"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN5">
+<earl:result rdf:resource="#resultEN5"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN5"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN6">
+<earl:result rdf:resource="#resultEN6"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN6"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN7">
+<earl:result rdf:resource="#resultEN7"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN7"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN8">
+<earl:result rdf:resource="#resultEN8"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN8"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN9">
+<earl:result rdf:resource="#resultEN9"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN9"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN10">
+<earl:result rdf:resource="#resultEN10"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN10"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN11">
+<earl:result rdf:resource="#resultEN11"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN11"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN12">
+<earl:result rdf:resource="#resultEN12"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN12"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN13">
+<earl:result rdf:resource="#resultEN13"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN13"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEN14">
+<earl:result rdf:resource="#resultEN14"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EN14"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertRO1">
+<earl:result rdf:resource="#resultRO1"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/RO1"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertRO2">
+<earl:result rdf:resource="#resultRO2"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/RO2"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertRO3">
+<earl:result rdf:resource="#resultRO3"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/RO3"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertRO4">
+<earl:result rdf:resource="#resultRO4"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/RO4"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertRO5">
+<earl:result rdf:resource="#resultRO5"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/RO5"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertRO6">
+<earl:result rdf:resource="#resultRO6"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/RO6"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertLA1">
+<earl:result rdf:resource="#resultLA1"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/LA1"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertLA2">
+<earl:result rdf:resource="#resultLA2"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/LA2"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertLA3">
+<earl:result rdf:resource="#resultLA3"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/LA3"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertLA4">
+<earl:result rdf:resource="#resultLA4"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/LA4"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertLA5">
+<earl:result rdf:resource="#resultLA5"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/LA5"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertLA6">
+<earl:result rdf:resource="#resultLA6"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/LA6"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertLA7">
+<earl:result rdf:resource="#resultLA7"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/LA7"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertLA8">
+<earl:result rdf:resource="#resultLA8"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/LA8"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertLA9">
+<earl:result rdf:resource="#resultLA9"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/LA9"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertLA10">
+<earl:result rdf:resource="#resultLA10"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/LA10"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEF1">
+<earl:result rdf:resource="#resultEF1"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EF1"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEF2">
+<earl:result rdf:resource="#resultEF2"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EF2"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEF3">
+<earl:result rdf:resource="#resultEF3"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EF3"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEF4">
+<earl:result rdf:resource="#resultEF4"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EF4"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEF5">
+<earl:result rdf:resource="#resultEF5"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EF5"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEF6">
+<earl:result rdf:resource="#resultEF6"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EF6"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEF7">
+<earl:result rdf:resource="#resultEF7"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EF7"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertCR1">
+<earl:result rdf:resource="#resultCR1"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/CR1"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertCR2">
+<earl:result rdf:resource="#resultCR2"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/CR2"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertCR3">
+<earl:result rdf:resource="#resultCR3"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/CR3"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertCR4">
+<earl:result rdf:resource="#resultCR4"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/CR4"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertCR5">
+<earl:result rdf:resource="#resultCR5"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/CR5"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertCR6">
+<earl:result rdf:resource="#resultCR6"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/CR6"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertCR7">
+<earl:result rdf:resource="#resultCR7"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/CR7"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertCR8">
+<earl:result rdf:resource="#resultCR8"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/CR8"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertCR9">
+<earl:result rdf:resource="#resultCR9"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/CR9"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertCR10">
+<earl:result rdf:resource="#resultCR10"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/CR10"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEM1">
+<earl:result rdf:resource="#resultEM1"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EM1"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEM2">
+<earl:result rdf:resource="#resultEM2"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EM2"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEM3">
+<earl:result rdf:resource="#resultEM3"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EM3"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEM4">
+<earl:result rdf:resource="#resultEM4"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EM4"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEM5">
+<earl:result rdf:resource="#resultEM5"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EM5"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertEM6">
+<earl:result rdf:resource="#resultEM6"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/EM6"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertBU1">
+<earl:result rdf:resource="#resultBU1"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/BU1"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertBU2">
+<earl:result rdf:resource="#resultBU2"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/BU2"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertBU3">
+<earl:result rdf:resource="#resultBU3"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/BU3"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertBU4">
+<earl:result rdf:resource="#resultBU4"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/BU4"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertBU5">
+<earl:result rdf:resource="#resultBU5"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/BU5"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertBU6">
+<earl:result rdf:resource="#resultBU6"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/BU6"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertBU7">
+<earl:result rdf:resource="#resultBU7"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/BU7"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertBU8">
+<earl:result rdf:resource="#resultBU8"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/BU8"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAY1">
+<earl:result rdf:resource="#resultAY1"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AY1"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAY2">
+<earl:result rdf:resource="#resultAY2"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AY2"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAY3">
+<earl:result rdf:resource="#resultAY3"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AY3"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAY4">
+<earl:result rdf:resource="#resultAY4"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AY4"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:Assertion rdf:ID="assertAY5">
+<earl:result rdf:resource="#resultAY5"/>
+<earl:test rdf:resource="https://www.prometheus.es/testHeuristicos/AY5"/>
+<earl:subject rdf:resource="http://espam.edu.ec/"/>
+<earl:assertedBy rdf:resource="#grupoEvaludores"/>
+<earl:mode rdf:resource="http://www.w3.org/ns/earl#manual"/>
+</earl:Assertion>
+<earl:TestSubject rdf:about="http://espam.edu.ec/">
+<dct:title xml:lang="es">Escuela Superior Politécnica Agropecuaria de Manabí</dct:title>
+<dct:description xml:lang="es"></dct:description> 
+</earl:TestSubject>
+<foaf:Group rdf:ID="grupoEvaluadores">
+<dct:title>pcl_32 usando Prometheus </dct:title>
+<earl:mainAssertor rdf:resource="https://www.prometheus.es/evaluadores/pcl_32/"/>
+<foaf:member rdf:resource="https://www.prometheus.es/prometheus/"/>
+</foaf:Group>
+<foaf:Person rdf:resource="https://www.prometheus.es/evaluadores/pcl_32/">
+<foaf:mbox rdf:resource="mailto:pcl_32@hotmail.com"/>
+</foaf:Person>
+<earl:Software rdf:about="https://www.prometheus.es/prometheus/">
+<dct:title xml:lang="es">Herramienta para evaluación de usabilidad web</dct:title>
+<dct:hasVersion>1.0</dct:hasVersion>
+<dct:description xml:lang="es">Obtiene el porcenjate de usabilidad de un sitio web a través serie de test de heurísticos</dct:description>
+</earl:Software>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AG1">
+<dct:description xml:lang="es">Objetivos del sitio web concretos y bien definidos</dct:description>
+<dct:title xml:lang="es">Aspectos Generales-AG1</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AG2">
+<dct:description xml:lang="es">Contenidos o servicios ofrecidos precisos y completos</dct:description>
+<dct:title xml:lang="es">Aspectos Generales-AG2</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AG3">
+<dct:description xml:lang="es">Estructura general del sitio web orientada al usuario</dct:description>
+<dct:title xml:lang="es">Aspectos Generales-AG3</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AG4">
+<dct:description xml:lang="es">Look and Feel general se corresponde con los objetivos del sitio web</dct:description>
+<dct:title xml:lang="es">Aspectos Generales-AG4</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AG5">
+<dct:description xml:lang="es">Diseño general del sitio web reconocible</dct:description>
+<dct:title xml:lang="es">Aspectos Generales-AG5</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AG6">
+<dct:description xml:lang="es">Diseño general del sitio web coherente</dct:description>
+<dct:title xml:lang="es">Aspectos Generales-AG6</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AG7">
+<dct:description xml:lang="es">Se utiliza el idioma del usuario</dct:description>
+<dct:title xml:lang="es">Aspectos Generales-AG7</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AG8">
+<dct:description xml:lang="es">Se da soporte a otro/s idioma/s</dct:description>
+<dct:title xml:lang="es">Aspectos Generales-AG8</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AG9">
+<dct:description xml:lang="es">Traducción del sitio completa y correcta</dct:description>
+<dct:title xml:lang="es">Aspectos Generales-AG9</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AG10">
+<dct:description xml:lang="es">Sitio web actualizado periódicamente</dct:description>
+<dct:title xml:lang="es">Aspectos Generales-AG10</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/II1">
+<dct:description xml:lang="es">Identidad o Logotipo significativo, identificable y suficientemente visible</dct:description>
+<dct:title xml:lang="es">Identidad e Información-II1</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/II2">
+<dct:description xml:lang="es">Identidad del sitio en todas las páginas</dct:description>
+<dct:title xml:lang="es">Identidad e Información-II2</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/II3">
+<dct:description xml:lang="es">Eslogan o tagline adecuado al objetivo del sitio</dct:description>
+<dct:title xml:lang="es">Identidad e Información-II3</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/II4">
+<dct:description xml:lang="es">Se ofrece información sobre el sitio web, empresa…</dct:description>
+<dct:title xml:lang="es">Identidad e Información-II4</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/II5">
+<dct:description xml:lang="es">Existen mecanismos de contacto</dct:description>
+<dct:title xml:lang="es">Identidad e Información-II5</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/II6">
+<dct:description xml:lang="es">Se ofrece información sobre la protección de datos de carácter personal o los derechos de autor de los contenidos del sitio web</dct:description>
+<dct:title xml:lang="es">Identidad e Información-II6</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/II7">
+<dct:description xml:lang="es">Se ofrece información sobre el autor, fuentes y fechas de creación y revisión en artículos, noticias, informes</dct:description>
+<dct:title xml:lang="es">Identidad e Información-II7</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN1">
+<dct:description xml:lang="es">Se ha evitado pantalla de bienvenida</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN1</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN2">
+<dct:description xml:lang="es">Estructura de organización y navegación adecuadas</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN2</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN3">
+<dct:description xml:lang="es">Organización de elementos acorde con las convenciones</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN3</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN4">
+<dct:description xml:lang="es">Control del número de elementos y de términos por elemento en los menús de navegación</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN4</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN5">
+<dct:description xml:lang="es">Equilibrio entre profundidad y anchura en el caso de estructura jerárquica</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN5</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN6">
+<dct:description xml:lang="es">Enlaces fácilmente reconocibles como tales</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN6</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN7">
+<dct:description xml:lang="es">La caracterización de los enlaces indica su estado (visitados, activos,...)</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN7</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN8">
+<dct:description xml:lang="es">No hay redundancia de enlaces</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN8</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN9">
+<dct:description xml:lang="es">No hay enlaces rotos</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN9</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN10">
+<dct:description xml:lang="es">No hay enlaces que lleven a la misma página que se está visualizando</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN10</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN11">
+<dct:description xml:lang="es">En las imágenes de enlace se indica el contenido al que se va a acceder</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN11</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN12">
+<dct:description xml:lang="es">Existe un enlace para volver al inicio en cada página</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN12</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN13">
+<dct:description xml:lang="es">Existen elementos de navegación que orienten al usuario acerca de dónde está y cómo deshacer su navegación (ej: migas, pestañas coloreadas)</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN13</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EN14">
+<dct:description xml:lang="es">Existe mapa del sitio para acceder directamente a los contenidos sin navegar</dct:description>
+<dct:title xml:lang="es">Estructura y Navegación-EN14</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/RO1">
+<dct:description xml:lang="es">Rótulos significativos</dct:description>
+<dct:title xml:lang="es">Rotulado-RO1</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/RO2">
+<dct:description xml:lang="es">Sistema de rotulado controlado y preciso</dct:description>
+<dct:title xml:lang="es">Rotulado-RO2</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/RO3">
+<dct:description xml:lang="es">Título de las páginas, correcto y planificado</dct:description>
+<dct:title xml:lang="es">Rotulado-RO3</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/RO4">
+<dct:description xml:lang="es">URL página principal correcta, clara y fácil de recordar</dct:description>
+<dct:title xml:lang="es">Rotulado-RO4</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/RO5">
+<dct:description xml:lang="es">URLs de páginas internas claras</dct:description>
+<dct:title xml:lang="es">Rotulado-RO5</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/RO6">
+<dct:description xml:lang="es">URLs de páginas internas permanentes</dct:description>
+<dct:title xml:lang="es">Rotulado-RO6</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/LA1">
+<dct:description xml:lang="es">Se aprovechan las zonas de alta jerarquía informativa de la página para contenidos de mayor relevancia</dct:description>
+<dct:title xml:lang="es">Layout de la página-LA1</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/LA2">
+<dct:description xml:lang="es">Se ha evitado la sobrecarga informativa</dct:description>
+<dct:title xml:lang="es">Layout de la página-LA2</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/LA3">
+<dct:description xml:lang="es">Es una interfaz limpia, sin ruido visual</dct:description>
+<dct:title xml:lang="es">Layout de la página-LA3</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/LA4">
+<dct:description xml:lang="es">Existen zonas en "blanco" entre los objetos informativos de la página para poder descansar la vista</dct:description>
+<dct:title xml:lang="es">Layout de la página-LA4</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/LA5">
+<dct:description xml:lang="es">Uso correcto del espacio visual de la página</dct:description>
+<dct:title xml:lang="es">Layout de la página-LA5</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/LA6">
+<dct:description xml:lang="es">Se utiliza correctamente la jerarquía visual para expresar las relaciones del tipo "parte de" entre los elementos de la página</dct:description>
+<dct:title xml:lang="es">Layout de la página-LA6</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/LA7">
+<dct:description xml:lang="es">Se ha controlado la longitud de página</dct:description>
+<dct:title xml:lang="es">Layout de la página-LA7</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/LA8">
+<dct:description xml:lang="es">La versión impresa de la página es correcta</dct:description>
+<dct:title xml:lang="es">Layout de la página-LA8</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/LA9">
+<dct:description xml:lang="es">El texto de la página se lee sin dificultad</dct:description>
+<dct:title xml:lang="es">Layout de la página-LA9</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/LA10">
+<dct:description xml:lang="es">Se ha evitado el texto parpadeante / deslizante</dct:description>
+<dct:title xml:lang="es">Layout de la página-LA10</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EF1">
+<dct:description xml:lang="es">Se emplea un lenguaje claro y conciso</dct:description>
+<dct:title xml:lang="es">Entendibilidad y Facilidad en la interacción-EF1</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EF2">
+<dct:description xml:lang="es">Lenguaje amigable, familiar y cercano</dct:description>
+<dct:title xml:lang="es">Entendibilidad y Facilidad en la interacción-EF2</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EF3">
+<dct:description xml:lang="es">Cada párrafo expresa una idea</dct:description>
+<dct:title xml:lang="es">Entendibilidad y Facilidad en la interacción-EF3</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EF4">
+<dct:description xml:lang="es">Uso consistente de los controles de la interfaz</dct:description>
+<dct:title xml:lang="es">Entendibilidad y Facilidad en la interacción-EF4</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EF5">
+<dct:description xml:lang="es">Metáforas visuales reconocibles y comprensibles por cualquier usuario (ej: iconos)</dct:description>
+<dct:title xml:lang="es">Entendibilidad y Facilidad en la interacción-EF5</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EF6">
+<dct:description xml:lang="es">Si se usan menús desplegables, orden coherente o alfabético</dct:description>
+<dct:title xml:lang="es">Entendibilidad y Facilidad en la interacción-EF6</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EF7">
+<dct:description xml:lang="es">Si el usuario tiene que rellenar un campo, las opciones disponibles se pueden seleccionar en vez de tener que escribirlas</dct:description>
+<dct:title xml:lang="es">Entendibilidad y Facilidad en la interacción-EF7</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/CR1">
+<dct:description xml:lang="es">El usuario tiene todo el control sobre la interfaz</dct:description>
+<dct:title xml:lang="es">Control y Retroalimentación-CR1</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/CR2">
+<dct:description xml:lang="es">Se informa al usuario acerca de lo que está pasando</dct:description>
+<dct:title xml:lang="es">Control y Retroalimentación-CR2</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/CR3">
+<dct:description xml:lang="es">Se informa al usuario de lo que ha pasado</dct:description>
+<dct:title xml:lang="es">Control y Retroalimentación-CR3</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/CR4">
+<dct:description xml:lang="es">Existen sistemas de validación antes de que el usuario envíe información para tratar de evitar errores</dct:description>
+<dct:title xml:lang="es">Control y Retroalimentación-CR4</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/CR5">
+<dct:description xml:lang="es">Cuando se produce un error, se informa de forma clara y no alarmista al usuario de lo ocurrido y de cómo solucionar el problema</dct:description>
+<dct:title xml:lang="es">Control y Retroalimentación-CR5</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/CR6">
+<dct:description xml:lang="es">Se ha controlado el tiempo de respuesta</dct:description>
+<dct:title xml:lang="es">Control y Retroalimentación-CR6</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/CR7">
+<dct:description xml:lang="es">Se ha evitado que las ventanas del sitio anulen o se superpongan a la del navegador</dct:description>
+<dct:title xml:lang="es">Control y Retroalimentación-CR7</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/CR8">
+<dct:description xml:lang="es">Se ha evitado la proliferación de ventanas en la pantalla del usuario</dct:description>
+<dct:title xml:lang="es">Control y Retroalimentación-CR8</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/CR9">
+<dct:description xml:lang="es">Se ha evitado la descarga por parte del usuario de plug-ins adicionales</dct:description>
+<dct:title xml:lang="es">Control y Retroalimentación-CR9</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/CR10">
+<dct:description xml:lang="es">Si existen tareas de varios pasos, se indica al usuario en cual está y cuantos faltan para completar la tarea</dct:description>
+<dct:title xml:lang="es">Control y Retroalimentación-CR10</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EM1">
+<dct:description xml:lang="es">Fotografías bien recortadas</dct:description>
+<dct:title xml:lang="es">Elementos Multimedia-EM1</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EM2">
+<dct:description xml:lang="es">Fotografías comprensibles</dct:description>
+<dct:title xml:lang="es">Elementos Multimedia-EM2</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EM3">
+<dct:description xml:lang="es">Fotografías con correcta resolución</dct:description>
+<dct:title xml:lang="es">Elementos Multimedia-EM3</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EM4">
+<dct:description xml:lang="es">El uso de imágenes o animaciones proporciona algún tipo de valor añadido</dct:description>
+<dct:title xml:lang="es">Elementos Multimedia-EM4</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EM5">
+<dct:description xml:lang="es">Se ha evitado el uso de animaciones cíclicas</dct:description>
+<dct:title xml:lang="es">Elementos Multimedia-EM5</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/EM6">
+<dct:description xml:lang="es">El uso de sonido proporciona algún tipo de valor añadido</dct:description>
+<dct:title xml:lang="es">Elementos Multimedia-EM6</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/BU1">
+<dct:description xml:lang="es">Si es necesaria, se encuentra accesible desde todas las páginas del sitio</dct:description>
+<dct:title xml:lang="es">Búsqueda-BU1</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/BU2">
+<dct:description xml:lang="es">Es fácilmente reconocible como tal</dct:description>
+<dct:title xml:lang="es">Búsqueda-BU2</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/BU3">
+<dct:description xml:lang="es">Se encuentra fácilmente accesible</dct:description>
+<dct:title xml:lang="es">Búsqueda-BU3</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/BU4">
+<dct:description xml:lang="es">La caja de texto es lo suficientemente ancha</dct:description>
+<dct:title xml:lang="es">Búsqueda-BU4</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/BU5">
+<dct:description xml:lang="es">Sistema de búsqueda simple y claro</dct:description>
+<dct:title xml:lang="es">Búsqueda-BU5</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/BU6">
+<dct:description xml:lang="es">Permite la búsqueda avanzada</dct:description>
+<dct:title xml:lang="es">Búsqueda-BU6</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/BU7">
+<dct:description xml:lang="es">Muestra los resultados de la búsqueda de forma comprensible para el usuario</dct:description>
+<dct:title xml:lang="es">Búsqueda-BU7</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/BU8">
+<dct:description xml:lang="es">Asiste al usuario en caso de no poder ofrecer resultados para una consultada dada</dct:description>
+<dct:title xml:lang="es">Búsqueda-BU8</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AY1">
+<dct:description xml:lang="es">El enlace a la sección de Ayuda, colocado en una zona visible y "estándar"</dct:description>
+<dct:title xml:lang="es">Ayuda-AY1</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AY2">
+<dct:description xml:lang="es">Fácil acceso y retorno al/del sistema de ayuda</dct:description>
+<dct:title xml:lang="es">Ayuda-AY2</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AY3">
+<dct:description xml:lang="es">Se ofrece ayuda contextual en tareas complejas</dct:description>
+<dct:title xml:lang="es">Ayuda-AY3</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AY4">
+<dct:description xml:lang="es">FAQs (si la hay), correcta la elección como la redacción de las preguntas</dct:description>
+<dct:title xml:lang="es">Ayuda-AY4</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestCase rdf:about="https://www.prometheus.es/testHeuristicos/AY5">
+<dct:description xml:lang="es">FAQs (si la hay), correcta la redacción de las respuestas</dct:description>
+<dct:title xml:lang="es">Ayuda-AY5</dct:title>
+<dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"> 23-07-2015</dct:date>
+</earl:TestCase>
+<earl:TestResult rdf:ID="#resultAG1"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">9</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 9.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAG2"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">8</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 8.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAG3"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">8</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 8.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAG4"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">8</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 8.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAG5"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">9</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 9.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAG6"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">10</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAG7"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAG8"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAG9"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAG10"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultII1"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">9</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 9.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultII2"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultII3"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultII4"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultII5"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultII6"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultII7"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN1"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN2"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">9</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 9.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN3"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">9</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 9.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN4"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN5"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN6"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN7"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN8"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN9"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN10"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN11"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN12"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN13"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEN14"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultRO1"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultRO2"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultRO3"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultRO4"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">10</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultRO5"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultRO6"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultLA1"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultLA2"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultLA3"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NPI</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 7.5 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultLA4"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultLA5"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">9</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 9.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultLA6"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">9</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 9.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultLA7"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultLA8"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultLA9"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultLA10"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEF1"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEF2"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEF3"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEF4"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEF5"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NPI</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 7.5 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEF6"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NPI</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 7.5 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEF7"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultCR1"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultCR2"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NPI</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 7.5 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultCR3"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NPI</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 7.5 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultCR4"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultCR5"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultCR6"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultCR7"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultCR8"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultCR9"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultCR10"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEM1"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEM2"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEM3"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#passed"/>
+<dct:title xml:lang="en">S</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 10.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEM4"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEM5"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultEM6"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultBU1"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultBU2"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">0</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultBU3"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">0</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultBU4"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">0</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultBU5"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">0</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultBU6"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">0</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultBU7"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">0</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultBU8"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">0</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAY1"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAY2"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">0</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAY3"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">NTS</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAY4"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">0</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+<earl:TestResult rdf:ID="#resultAY5"><earl:outcome rdf:resource="http://www.w3.org/ns/earl#failed"/>
+<dct:title xml:lang="en">0</dct:title>
+<dct:description rdf:parseType="Literal" xml:lang="en"> Valor real - 0.0 </dct:description>
+</earl:TestResult>
+</rdf:RDF>

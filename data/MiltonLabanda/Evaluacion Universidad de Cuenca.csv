@@ -1,0 +1,8 @@
+Criterios propuestos por orden de prioridad de arreglo;;;VO;VR;Inc %
+AY2;Ayuda;Fácil acceso y retorno al/del sistema de ayuda;0;10;1227%
+CR1;Control y Retroalimentación;El usuario tiene todo el control sobre la interfaz;NTS;S;1227%
+BU2;Búsqueda;Es fácilmente reconocible como tal;6;10;0.490799%
+II1;Identidad e Información;Identidad o Logotipo significativo, identificable y suficientemente visible;4;10;0.368095%
+EF6;Entendibilidad y Facilidad en la interacción;Si se usan menús desplegables, orden coherente o alfabético;NPI;S;0.306747%
+LA6;Layout de la página;"Se utiliza correctamente la jerarquía visual para expresar las relaciones del tipo ""parte de"" entre los elementos de la página";8;10;0.245399%
+BU6;Búsqueda;Permite la búsqueda avanzada;9;10;0.122696%

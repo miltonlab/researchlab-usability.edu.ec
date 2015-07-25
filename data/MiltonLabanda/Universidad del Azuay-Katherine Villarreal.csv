@@ -1,0 +1,62 @@
+Criterios propuestos por orden de prioridad de arreglo;;;VO;VR;Inc %
+BU1;Búsqueda;Si es necesaria, se encuentra accesible desde todas las páginas del sitio;NTS;S;253164%
+CR4;Control y Retroalimentación;Existen sistemas de validación antes de que el usuario envíe información para tratar de evitar errores;NTS;S;253164%
+LA9;Layout de la página;El texto de la página se lee sin dificultad;NTS;S;253164%
+EN13;Estructura y Navegación;Existen elementos de navegación que orienten al usuario acerca de dónde está y cómo deshacer su navegación (ej: migas, pestañas coloreadas);NTS;S;253164%
+BU5;Búsqueda;Sistema de búsqueda simple y claro;3;10;177215%
+AY5;Ayuda;FAQs (si la hay), correcta la redacción de las respuestas;0;10;126582%
+AY4;Ayuda;FAQs (si la hay), correcta la elección como la redacción de las preguntas;0;10;126582%
+AY3;Ayuda;Se ofrece ayuda contextual en tareas complejas;NTS;S;126582%
+AY1;Ayuda;"El enlace a la sección de Ayuda, colocado en una zona visible y ""estándar""";NTS;S;126582%
+CR10;Control y Retroalimentación;Si existen tareas de varios pasos, se indica al usuario en cual está y cuantos faltan para completar la tarea;NTS;S;126582%
+CR8;Control y Retroalimentación;Se ha evitado la proliferación de ventanas en la pantalla del usuario;NTS;S;126582%
+CR7;Control y Retroalimentación;Se ha evitado que las ventanas del sitio anulen o se superpongan a la del navegador;NTS;S;126582%
+CR6;Control y Retroalimentación;Se ha controlado el tiempo de respuesta;NTS;S;126582%
+CR5;Control y Retroalimentación;Cuando se produce un error, se informa de forma clara y no alarmista al usuario de lo ocurrido y de cómo solucionar el problema;NTS;S;126582%
+CR3;Control y Retroalimentación;Se informa al usuario de lo que ha pasado;NTS;S;126582%
+EF7;Entendibilidad y Facilidad en la interacción;Si el usuario tiene que rellenar un campo, las opciones disponibles se pueden seleccionar en vez de tener que escribirlas;NTS;S;126582%
+EF4;Entendibilidad y Facilidad en la interacción;Uso consistente de los controles de la interfaz;NTS;S;126582%
+LA8;Layout de la página;La versión impresa de la página es correcta;NTS;S;126582%
+LA4;Layout de la página;"Existen zonas en ""blanco"" entre los objetos informativos de la página para poder descansar la vista";NTS;S;126582%
+RO3;Rotulado;Título de las páginas, correcto y planificado;NTS;S;126582%
+RO1;Rotulado;Rótulos significativos;NTS;S;126582%
+EN14;Estructura y Navegación;Existe mapa del sitio para acceder directamente a los contenidos sin navegar;NTS;S;126582%
+EN7;Estructura y Navegación;La caracterización de los enlaces indica su estado (visitados, activos,...);NTS;S;126582%
+EN5;Estructura y Navegación;Equilibrio entre profundidad y anchura en el caso de estructura jerárquica;NTS;S;126582%
+EN4;Estructura y Navegación;Control del número de elementos y de términos por elemento en los menús de navegación;NTS;S;126582%
+II6;Identidad e Información;Se ofrece información sobre la protección de datos de carácter personal o los derechos de autor de los contenidos del sitio web;NTS;S;126582%
+AG10;Aspectos Generales;Sitio web actualizado periódicamente;NTS;S;126582%
+AG9;Aspectos Generales;Traducción del sitio completa y correcta;NTS;S;126582%
+AG8;Aspectos Generales;Se da soporte a otro/s idioma/s;NTS;S;126582%
+BU7;Búsqueda;Muestra los resultados de la búsqueda de forma comprensible para el usuario;1;10;113924%
+BU6;Búsqueda;Permite la búsqueda avanzada;2;10;101266%
+AG6;Aspectos Generales;Diseño general del sitio web coherente;6;10;101266%
+AG3;Aspectos Generales;Estructura general del sitio web orientada al usuario;2;10;101266%
+AG2;Aspectos Generales;Contenidos o servicios ofrecidos precisos y completos;6;10;101266%
+LA6;Layout de la página;"Se utiliza correctamente la jerarquía visual para expresar las relaciones del tipo ""parte de"" entre los elementos de la página";3;10;0.886074%
+EN2;Estructura y Navegación;Estructura de organización y navegación adecuadas;3;10;0.886074%
+BU2;Búsqueda;Es fácilmente reconocible como tal;4;10;0.759491%
+AG4;Aspectos Generales;Look and Feel general se corresponde con los objetivos del sitio web;4;10;0.759491%
+AY2;Ayuda;Fácil acceso y retorno al/del sistema de ayuda;0;10;0.632912%
+EM4;Elementos Multimedia;El uso de imágenes o animaciones proporciona algún tipo de valor añadido;NTS;S;0.632912%
+CR2;Control y Retroalimentación;Se informa al usuario acerca de lo que está pasando;NTS;S;0.632912%
+CR1;Control y Retroalimentación;El usuario tiene todo el control sobre la interfaz;NTS;S;0.632912%
+LA7;Layout de la página;Se ha controlado la longitud de página;NTS;S;0.632912%
+LA2;Layout de la página;Se ha evitado la sobrecarga informativa;NTS;S;0.632912%
+RO6;Rotulado;URLs de páginas internas permanentes;NTS;S;0.632912%
+RO5;Rotulado;URLs de páginas internas claras;NTS;S;0.632912%
+RO2;Rotulado;Sistema de rotulado controlado y preciso;NTS;S;0.632912%
+EN3;Estructura y Navegación;Organización de elementos acorde con las convenciones;5;10;0.632912%
+II7;Identidad e Información;Se ofrece información sobre el autor, fuentes y fechas de creación y revisión en artículos, noticias, informes;NTS;S;0.632912%
+AG1;Aspectos Generales;Objetivos del sitio web concretos y bien definidos;5;10;0.632912%
+BU8;Búsqueda;Asiste al usuario en caso de no poder ofrecer resultados para una consultada dada;1;10;0.569618%
+BU4;Búsqueda;La caja de texto es lo suficientemente ancha;6;10;0.506329%
+BU3;Búsqueda;Se encuentra fácilmente accesible;6;10;0.506329%
+II1;Identidad e Información;Identidad o Logotipo significativo, identificable y suficientemente visible;6;10;0.506329%
+AG5;Aspectos Generales;Diseño general del sitio web reconocible;6;10;0.506329%
+LA5;Layout de la página;Uso correcto del espacio visual de la página;3;10;0.443035%
+EM6;Elementos Multimedia;El uso de sonido proporciona algún tipo de valor añadido;NTS;S;0.316456%
+EM3;Elementos Multimedia;Fotografías con correcta resolución;NTS;S;0.316456%
+EN10;Estructura y Navegación;No hay enlaces que lleven a la misma página que se está visualizando;NTS;S;0.316456%
+RO4;Rotulado;URL página principal correcta, clara y fácil de recordar;7;10;0.189873%
+EN1;Estructura y Navegación;Se ha evitado pantalla de bienvenida;NPP;S;0.158226%
