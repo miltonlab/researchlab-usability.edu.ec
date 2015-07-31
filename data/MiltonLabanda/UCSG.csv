@@ -1,0 +1,86 @@
+Criterios propuestos por orden de prioridad de arreglo;;;VO;VR;Inc %
+EN9;Estructura y Navegación;No hay enlaces rotos;NTS;S;189573%
+EN8;Estructura y Navegación;No hay redundancia de enlaces;NTS;S;189573%
+LA4;Layout de la página;"Existen zonas en ""blanco"" entre los objetos informativos de la página para poder descansar la vista";NTS;S;0.947861%
+LA3;Layout de la página;Es una interfaz limpia, sin ruido visual;NTS;S;0.947861%
+EN11;Estructura y Navegación;En las imágenes de enlace se indica el contenido al que se va a acceder;NTS;S;0.947861%
+EM6;Elementos Multimedia;El uso de sonido proporciona algún tipo de valor añadido;NTS;S;0.473923%
+EN10;Estructura y Navegación;No hay enlaces que lleven a la misma página que se está visualizando;NTS;S;0.473923%
+EN1;Estructura y Navegación;Se ha evitado pantalla de bienvenida;NTS;S;0.473923%
+AG9;Aspectos Generales;Traducción del sitio completa y correcta;NPI;S;0.236961%
+AG5;Aspectos Generales;Diseño general del sitio web reconocible;8;10;0.189568%
+AG4;Aspectos Generales;Look and Feel general se corresponde con los objetivos del sitio web;8;10;0.189568%
+LA5;Layout de la página;Uso correcto del espacio visual de la página;9;10;0.09478%
+;;;;;
+Criterios Correctos;;;;;
+AY 5;Ayuda;FAQs (si la hay), correcta la redacción de las respuestas;;;
+AY 4;Ayuda;FAQs (si la hay), correcta la elección como la redacción de las preguntas;;;
+AY 3;Ayuda;Se ofrece ayuda contextual en tareas complejas;;;
+AY 2;Ayuda;Fácil acceso y retorno al/del sistema de ayuda;;;
+AY 1;Ayuda;"El enlace a la sección de Ayuda, colocado en una zona visible y ""estándar""";;;
+BU 8;Búsqueda;Asiste al usuario en caso de no poder ofrecer resultados para una consultada dada;;;
+BU 7;Búsqueda;Muestra los resultados de la búsqueda de forma comprensible para el usuario;;;
+BU 6;Búsqueda;Permite la búsqueda avanzada;;;
+BU 5;Búsqueda;Sistema de búsqueda simple y claro;;;
+BU 4;Búsqueda;La caja de texto es lo suficientemente ancha;;;
+BU 3;Búsqueda;Se encuentra fácilmente accesible;;;
+BU 2;Búsqueda;Es fácilmente reconocible como tal;;;
+BU 1;Búsqueda;Si es necesaria, se encuentra accesible desde todas las páginas del sitio;;;
+EM 5;Elementos Multimedia;Se ha evitado el uso de animaciones cíclicas;;;
+EM 4;Elementos Multimedia;El uso de imágenes o animaciones proporciona algún tipo de valor añadido;;;
+EM 3;Elementos Multimedia;Fotografías con correcta resolución;;;
+EM 2;Elementos Multimedia;Fotografías comprensibles;;;
+EM 1;Elementos Multimedia;Fotografías bien recortadas;;;
+CR 10;Control y Retroalimentación;Si existen tareas de varios pasos, se indica al usuario en cual está y cuantos faltan para completar la tarea;;;
+CR 9;Control y Retroalimentación;Se ha evitado la descarga por parte del usuario de plug-ins adicionales;;;
+CR 8;Control y Retroalimentación;Se ha evitado la proliferación de ventanas en la pantalla del usuario;;;
+CR 7;Control y Retroalimentación;Se ha evitado que las ventanas del sitio anulen o se superpongan a la del navegador;;;
+CR 6;Control y Retroalimentación;Se ha controlado el tiempo de respuesta;;;
+CR 5;Control y Retroalimentación;Cuando se produce un error, se informa de forma clara y no alarmista al usuario de lo ocurrido y de cómo solucionar el problema;;;
+CR 4;Control y Retroalimentación;Existen sistemas de validación antes de que el usuario envíe información para tratar de evitar errores;;;
+CR 3;Control y Retroalimentación;Se informa al usuario de lo que ha pasado;;;
+CR 2;Control y Retroalimentación;Se informa al usuario acerca de lo que está pasando;;;
+CR 1;Control y Retroalimentación;El usuario tiene todo el control sobre la interfaz;;;
+EF 7;Entendibilidad y Facilidad en la interacción;Si el usuario tiene que rellenar un campo, las opciones disponibles se pueden seleccionar en vez de tener que escribirlas;;;
+EF 6;Entendibilidad y Facilidad en la interacción;Si se usan menús desplegables, orden coherente o alfabético;;;
+EF 5;Entendibilidad y Facilidad en la interacción;Metáforas visuales reconocibles y comprensibles por cualquier usuario (ej: iconos);;;
+EF 4;Entendibilidad y Facilidad en la interacción;Uso consistente de los controles de la interfaz;;;
+EF 3;Entendibilidad y Facilidad en la interacción;Cada párrafo expresa una idea;;;
+EF 2;Entendibilidad y Facilidad en la interacción;Lenguaje amigable, familiar y cercano;;;
+EF 1;Entendibilidad y Facilidad en la interacción;Se emplea un lenguaje claro y conciso;;;
+LA 10;Layout de la página;Se ha evitado el texto parpadeante / deslizante;;;
+LA 9;Layout de la página;El texto de la página se lee sin dificultad;;;
+LA 8;Layout de la página;La versión impresa de la página es correcta;;;
+LA 7;Layout de la página;Se ha controlado la longitud de página;;;
+LA 6;Layout de la página;"Se utiliza correctamente la jerarquía visual para expresar las relaciones del tipo ""parte de"" entre los elementos de la página";;;
+LA 2;Layout de la página;Se ha evitado la sobrecarga informativa;;;
+LA 1;Layout de la página;Se aprovechan las zonas de alta jerarquía informativa de la página para contenidos de mayor relevancia;;;
+RO 6;Rotulado;URLs de páginas internas permanentes;;;
+RO 5;Rotulado;URLs de páginas internas claras;;;
+RO 4;Rotulado;URL página principal correcta, clara y fácil de recordar;;;
+RO 3;Rotulado;Título de las páginas, correcto y planificado;;;
+RO 2;Rotulado;Sistema de rotulado controlado y preciso;;;
+RO 1;Rotulado;Rótulos significativos;;;
+EN 14;Estructura y Navegación;Existe mapa del sitio para acceder directamente a los contenidos sin navegar;;;
+EN 13;Estructura y Navegación;Existen elementos de navegación que orienten al usuario acerca de dónde está y cómo deshacer su navegación (ej: migas, pestañas coloreadas);;;
+EN 12;Estructura y Navegación;Existe un enlace para volver al inicio en cada página;;;
+EN 7;Estructura y Navegación;La caracterización de los enlaces indica su estado (visitados, activos,...);;;
+EN 6;Estructura y Navegación;Enlaces fácilmente reconocibles como tales;;;
+EN 5;Estructura y Navegación;Equilibrio entre profundidad y anchura en el caso de estructura jerárquica;;;
+EN 4;Estructura y Navegación;Control del número de elementos y de términos por elemento en los menús de navegación;;;
+EN 3;Estructura y Navegación;Organización de elementos acorde con las convenciones;;;
+EN 2;Estructura y Navegación;Estructura de organización y navegación adecuadas;;;
+II 7;Identidad e Información;Se ofrece información sobre el autor, fuentes y fechas de creación y revisión en artículos, noticias, informes;;;
+II 6;Identidad e Información;Se ofrece información sobre la protección de datos de carácter personal o los derechos de autor de los contenidos del sitio web;;;
+II 5;Identidad e Información;Existen mecanismos de contacto;;;
+II 4;Identidad e Información;Se ofrece información sobre el sitio web, empresa…;;;
+II 3;Identidad e Información;Eslogan o tagline adecuado al objetivo del sitio;;;
+II 2;Identidad e Información;Identidad del sitio en todas las páginas;;;
+II 1;Identidad e Información;Identidad o Logotipo significativo, identificable y suficientemente visible;;;
+AG 10;Aspectos Generales;Sitio web actualizado periódicamente;;;
+AG 8;Aspectos Generales;Se da soporte a otro/s idioma/s;;;
+AG 7;Aspectos Generales;Se utiliza el idioma del usuario;;;
+AG 6;Aspectos Generales;Diseño general del sitio web coherente;;;
+AG 3;Aspectos Generales;Estructura general del sitio web orientada al usuario;;;
+AG 2;Aspectos Generales;Contenidos o servicios ofrecidos precisos y completos;;;
+AG 1;Aspectos Generales;Objetivos del sitio web concretos y bien definidos;;;
