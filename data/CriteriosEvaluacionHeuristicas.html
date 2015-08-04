@@ -1,0 +1,1925 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="keywords" content="heuristicos">
+		<link rel="stylesheet" media="all" type="text/css" href="Prometheus%20-%20Criterios%20de%20Evaluacion_files/prometheus_all_style.css">
+		<link rel="stylesheet" media="print" type="text/css" href="Prometheus%20-%20Criterios%20de%20Evaluacion_files/prometheus_print_style.css">
+		<link href="https://156.35.98.176/prometheus/imagenes/favicon.ico" rel="icon" type="image/x-icon">
+		<link href="https://156.35.98.176/prometheus/imagenes/favicon.ico" rel="shortcut icon" type="image/x-icon">			
+		<title>
+
+Prometheus - Evaluación del sitio web:</title>
+	</head>
+	<body>
+		
+
+
+		<div id="header">
+			<div id="logo">
+				<img src="Prometheus%20-%20Criterios%20de%20Evaluacion_files/logo.png" alt="Prometheus">
+				<h1>Herramienta para la Evaluación de la Usabilidad Web</h1>
+			</div>
+		</div>
+		
+
+
+<div id="locale">
+
+
+	<ul>
+	<li title="English" class="noSeleccionado">
+	        <form id="inputTestHeuristicos" action="/prometheus/evaluador/inputTestHeuristicos" method="post">
+	           <p> <input name="request_locale" value="en" id="inputTestHeuristicos_request_locale" type="hidden">
+	            <input id="inputTestHeuristicos_English" name="English" value="en" type="submit">
+</p>
+	        </form>
+
+
+
+
+	    </li>
+	   <li title="Español" class="seleccionado">es</li>
+	      
+	    <li title="Ayuda" class="ayuda">
+	    	<form id="ayudaTestHeuristicos" action="/prometheus/evaluador/ayudaTestHeuristicos" method="post">
+	           <p><input id="ayudaTestHeuristicos_ayuda" name="ayuda" value="Ayuda" type="submit">
+</p>
+	        </form>
+
+
+
+
+	    </li>
+    </ul>
+
+</div>
+
+
+		<div id="page">
+				<div id="menu">
+				
+
+<ul class="initmenu">
+	<li><a href="https://156.35.98.176/prometheus/logout">Cerrar Sesión</a></li>
+</ul>
+
+				
+
+<ul class="navmenu">
+	<li><a href="https://156.35.98.176/prometheus/logout" title="Cerrar sesión y volver a la página de inicio.">
+	Inicio
+	</a></li>
+	<li>&gt;</li>
+	<li><a href="https://156.35.98.176/prometheus/evaluador/inputInicio">Evaluador</a></li>
+	<li>&gt;</li>
+	<li>Evaluación de un sitio web</li>
+</ul>
+
+
+				
+    		</div>
+			<div id="test">
+				
+
+
+<h1>Evaluación del sitio web: 
+	<a href="http://universidad.prueba.edu.ec/" onclick="window.open(this.href); return false;" title="Acceso al sitio web en una nueva ventana">
+		Universidad de Prueba</a>
+</h1>
+	
+
+ 
+	
+		
+	
+		<table class="valoresTest">
+			<tbody><tr>
+				<th>Valor</th>
+				<th>Descripción</th>
+			</tr>
+			
+				<tr>
+					<td>0</td>
+					<td>No se cumple en absoluto</td>
+				</tr>
+			
+				<tr>
+					<td>10</td>
+					<td>Se cumple totalmente</td>
+				</tr>
+			
+				<tr>
+					<td>NTS</td>
+					<td>No se cumple en todo el sitio</td>
+				</tr>
+			
+				<tr>
+					<td>NEP</td>
+					<td>No se cumple en los enlaces principales</td>
+				</tr>
+			
+				<tr>
+					<td>NPP</td>
+					<td>No se cumple en la página principal</td>
+				</tr>
+			
+				<tr>
+					<td>NPI</td>
+					<td>No se cumple en alguna página interior</td>
+				</tr>
+			
+				<tr>
+					<td>S</td>
+					<td>Se cumple el criterio</td>
+				</tr>
+			
+				<tr>
+					<td>NA</td>
+					<td>Criterio no aplicable en el sitio</td>
+				</tr>
+			
+		</tbody></table>
+		
+	
+		
+	<form id="testHeuristicos" action="/prometheus/evaluador/testHeuristicos" method="post">
+		
+			<p class="navegador"><label for="testHeuristicos_navegador" class="label">Seleccione el navegador con el que va a realizar la evaluación:</label><select name="navegador" id="testHeuristicos_navegador">
+    <option selected="selected" value=""></option>
+    <option value="Google Chrome">Google Chrome</option>
+    <option value="Internet Explorer">Internet Explorer</option>
+    <option value="Mozilla Firefox">Mozilla Firefox</option>
+    <option value="Opera">Opera</option>
+    <option value="Safari">Safari</option>
+
+
+</select></p>
+						
+			<p class="navegador"><label for="testHeuristicos_version" class="label">Indique la versión o el navegador si el utilizado no está en la lista:</label><input name="version" value="Mozilla Firefox 33" id="testHeuristicos_version" type="text">
+</p>
+			   
+		     
+	        		<p><input name="mAspectos['AG'].codigoAspecto" value="AG" id="testHeuristicos_mAspectos__AG___codigoAspecto" type="hidden"></p>
+				    <table class="testHeuristicos">
+				        <tbody><tr>
+				            <th colspan="2"> Aspectos Generales</th>
+				        </tr>
+				             
+				         <tr>
+				              <td> <input name="mAspectos['AG'].mCriterios[1].codigoCriterio" value="1" id="testHeuristicos_mAspectos__AG___mCriterios_1__codigoCriterio" type="hidden">
+	                    		AG 1 - Objetivos del sitio web concretos y bien definidos</td>
+	                   			<td> <select name="mAspectos['AG'].mCriterios[1].valor.codigo" id="testHeuristicos_mAspectos__AG___mCriterios_1__valor_codigo">
+    <option value=""></option>
+    <option value="0" selected="selected">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AG'].mCriterios[2].codigoCriterio" value="2" id="testHeuristicos_mAspectos__AG___mCriterios_2__codigoCriterio" type="hidden">
+	                    		AG 2 - Contenidos o servicios ofrecidos precisos y completos</td>
+	                   			<td> <select name="mAspectos['AG'].mCriterios[2].valor.codigo" id="testHeuristicos_mAspectos__AG___mCriterios_2__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4" selected="selected">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AG'].mCriterios[3].codigoCriterio" value="3" id="testHeuristicos_mAspectos__AG___mCriterios_3__codigoCriterio" type="hidden">
+	                    		AG 3 - Estructura general del sitio web orientada al usuario</td>
+	                   			<td> <select name="mAspectos['AG'].mCriterios[3].valor.codigo" id="testHeuristicos_mAspectos__AG___mCriterios_3__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6" selected="selected">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AG'].mCriterios[4].codigoCriterio" value="4" id="testHeuristicos_mAspectos__AG___mCriterios_4__codigoCriterio" type="hidden">
+	                    		AG 4 - Look and Feel general se corresponde con los objetivos del sitio web</td>
+	                   			<td> <select name="mAspectos['AG'].mCriterios[4].valor.codigo" id="testHeuristicos_mAspectos__AG___mCriterios_4__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6" selected="selected">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AG'].mCriterios[5].codigoCriterio" value="5" id="testHeuristicos_mAspectos__AG___mCriterios_5__codigoCriterio" type="hidden">
+	                    		AG 5 - Diseño general del sitio web reconocible</td>
+	                   			<td> <select name="mAspectos['AG'].mCriterios[5].valor.codigo" id="testHeuristicos_mAspectos__AG___mCriterios_5__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7" selected="selected">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AG'].mCriterios[6].codigoCriterio" value="6" id="testHeuristicos_mAspectos__AG___mCriterios_6__codigoCriterio" type="hidden">
+	                    		AG 6 - Diseño general del sitio web coherente</td>
+	                   			<td> <select name="mAspectos['AG'].mCriterios[6].valor.codigo" id="testHeuristicos_mAspectos__AG___mCriterios_6__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6" selected="selected">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AG'].mCriterios[7].codigoCriterio" value="7" id="testHeuristicos_mAspectos__AG___mCriterios_7__codigoCriterio" type="hidden">
+	                    		AG 7 - Se utiliza el idioma del usuario</td>
+	                   			<td> <select name="mAspectos['AG'].mCriterios[7].valor.codigo" id="testHeuristicos_mAspectos__AG___mCriterios_7__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA" selected="selected">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AG'].mCriterios[8].codigoCriterio" value="8" id="testHeuristicos_mAspectos__AG___mCriterios_8__codigoCriterio" type="hidden">
+	                    		AG 8 - Se da soporte a otro/s idioma/s</td>
+	                   			<td> <select name="mAspectos['AG'].mCriterios[8].valor.codigo" id="testHeuristicos_mAspectos__AG___mCriterios_8__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AG'].mCriterios[9].codigoCriterio" value="9" id="testHeuristicos_mAspectos__AG___mCriterios_9__codigoCriterio" type="hidden">
+	                    		AG 9 - Traducción del sitio completa y correcta</td>
+	                   			<td> <select name="mAspectos['AG'].mCriterios[9].valor.codigo" id="testHeuristicos_mAspectos__AG___mCriterios_9__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AG'].mCriterios[10].codigoCriterio" value="10" id="testHeuristicos_mAspectos__AG___mCriterios_10__codigoCriterio" type="hidden">
+	                    		AG 10 - Sitio web actualizado periódicamente</td>
+	                   			<td> <select name="mAspectos['AG'].mCriterios[10].valor.codigo" id="testHeuristicos_mAspectos__AG___mCriterios_10__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			   
+	               </tbody></table> 
+	        
+	        		<p><input name="mAspectos['II'].codigoAspecto" value="II" id="testHeuristicos_mAspectos__II___codigoAspecto" type="hidden"></p>
+				    <table class="testHeuristicos">
+				        <tbody><tr>
+				            <th colspan="2"> Identidad e Información</th>
+				        </tr>
+				             
+				         <tr>
+				              <td> <input name="mAspectos['II'].mCriterios[1].codigoCriterio" value="1" id="testHeuristicos_mAspectos__II___mCriterios_1__codigoCriterio" type="hidden">
+	                    		II 1 - Identidad o Logotipo significativo, identificable y suficientemente visible</td>
+	                   			<td> <select name="mAspectos['II'].mCriterios[1].valor.codigo" id="testHeuristicos_mAspectos__II___mCriterios_1__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4" selected="selected">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['II'].mCriterios[2].codigoCriterio" value="2" id="testHeuristicos_mAspectos__II___mCriterios_2__codigoCriterio" type="hidden">
+	                    		II 2 - Identidad del sitio en todas las páginas</td>
+	                   			<td> <select name="mAspectos['II'].mCriterios[2].valor.codigo" id="testHeuristicos_mAspectos__II___mCriterios_2__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['II'].mCriterios[3].codigoCriterio" value="3" id="testHeuristicos_mAspectos__II___mCriterios_3__codigoCriterio" type="hidden">
+	                    		II 3 - Eslogan o tagline adecuado al objetivo del sitio</td>
+	                   			<td> <select name="mAspectos['II'].mCriterios[3].valor.codigo" id="testHeuristicos_mAspectos__II___mCriterios_3__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['II'].mCriterios[4].codigoCriterio" value="4" id="testHeuristicos_mAspectos__II___mCriterios_4__codigoCriterio" type="hidden">
+	                    		II 4 - Se ofrece información sobre el sitio web, empresa…</td>
+	                   			<td> <select name="mAspectos['II'].mCriterios[4].valor.codigo" id="testHeuristicos_mAspectos__II___mCriterios_4__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['II'].mCriterios[5].codigoCriterio" value="5" id="testHeuristicos_mAspectos__II___mCriterios_5__codigoCriterio" type="hidden">
+	                    		II 5 - Existen mecanismos de contacto</td>
+	                   			<td> <select name="mAspectos['II'].mCriterios[5].valor.codigo" id="testHeuristicos_mAspectos__II___mCriterios_5__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S" selected="selected">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['II'].mCriterios[6].codigoCriterio" value="6" id="testHeuristicos_mAspectos__II___mCriterios_6__codigoCriterio" type="hidden">
+	                    		II 6 - Se ofrece información sobre la protección 
+de datos de carácter personal o los derechos de autor de los contenidos 
+del sitio web</td>
+	                   			<td> <select name="mAspectos['II'].mCriterios[6].valor.codigo" id="testHeuristicos_mAspectos__II___mCriterios_6__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['II'].mCriterios[7].codigoCriterio" value="7" id="testHeuristicos_mAspectos__II___mCriterios_7__codigoCriterio" type="hidden">
+	                    		II 7 - Se ofrece información sobre el autor, 
+fuentes y fechas de creación y revisión en artículos, noticias, informes</td>
+	                   			<td> <select name="mAspectos['II'].mCriterios[7].valor.codigo" id="testHeuristicos_mAspectos__II___mCriterios_7__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			   
+	               </tbody></table> 
+	        
+	        		<p><input name="mAspectos['EN'].codigoAspecto" value="EN" id="testHeuristicos_mAspectos__EN___codigoAspecto" type="hidden"></p>
+				    <table class="testHeuristicos">
+				        <tbody><tr>
+				            <th colspan="2"> Estructura y Navegación</th>
+				        </tr>
+				             
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[1].codigoCriterio" value="1" id="testHeuristicos_mAspectos__EN___mCriterios_1__codigoCriterio" type="hidden">
+	                    		EN 1 - Se ha evitado pantalla de bienvenida</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[1].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_1__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[2].codigoCriterio" value="2" id="testHeuristicos_mAspectos__EN___mCriterios_2__codigoCriterio" type="hidden">
+	                    		EN 2 - Estructura de organización y navegación adecuadas</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[2].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_2__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3" selected="selected">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[3].codigoCriterio" value="3" id="testHeuristicos_mAspectos__EN___mCriterios_3__codigoCriterio" type="hidden">
+	                    		EN 3 - Organización de elementos acorde con las convenciones</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[3].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_3__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3" selected="selected">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[4].codigoCriterio" value="4" id="testHeuristicos_mAspectos__EN___mCriterios_4__codigoCriterio" type="hidden">
+	                    		EN 4 - Control del número de elementos y de términos por elemento en los menús de navegación</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[4].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_4__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[5].codigoCriterio" value="5" id="testHeuristicos_mAspectos__EN___mCriterios_5__codigoCriterio" type="hidden">
+	                    		EN 5 - Equilibrio entre profundidad y anchura en el caso de estructura jerárquica</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[5].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_5__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[6].codigoCriterio" value="6" id="testHeuristicos_mAspectos__EN___mCriterios_6__codigoCriterio" type="hidden">
+	                    		EN 6 - Enlaces fácilmente reconocibles como tales</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[6].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_6__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[7].codigoCriterio" value="7" id="testHeuristicos_mAspectos__EN___mCriterios_7__codigoCriterio" type="hidden">
+	                    		EN 7 - La caracterización de los enlaces indica su estado (visitados, activos,...)</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[7].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_7__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[8].codigoCriterio" value="8" id="testHeuristicos_mAspectos__EN___mCriterios_8__codigoCriterio" type="hidden">
+	                    		EN 8 - No hay redundancia de enlaces</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[8].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_8__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[9].codigoCriterio" value="9" id="testHeuristicos_mAspectos__EN___mCriterios_9__codigoCriterio" type="hidden">
+	                    		EN 9 - No hay enlaces rotos</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[9].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_9__valor_codigo">
+    <option value=""></option>
+    <option value="NTS" selected="selected">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[10].codigoCriterio" value="10" id="testHeuristicos_mAspectos__EN___mCriterios_10__codigoCriterio" type="hidden">
+	                    		EN 10 - No hay enlaces que lleven a la misma página que se está visualizando</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[10].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_10__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[11].codigoCriterio" value="11" id="testHeuristicos_mAspectos__EN___mCriterios_11__codigoCriterio" type="hidden">
+	                    		EN 11 - En las imágenes de enlace se indica el contenido al que se va a acceder</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[11].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_11__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[12].codigoCriterio" value="12" id="testHeuristicos_mAspectos__EN___mCriterios_12__codigoCriterio" type="hidden">
+	                    		EN 12 - Existe un enlace para volver al inicio en cada página</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[12].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_12__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[13].codigoCriterio" value="13" id="testHeuristicos_mAspectos__EN___mCriterios_13__codigoCriterio" type="hidden">
+	                    		EN 13 - Existen elementos de navegación que 
+orienten al usuario acerca de dónde está y cómo deshacer su navegación 
+(ej: migas, pestañas coloreadas)</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[13].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_13__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EN'].mCriterios[14].codigoCriterio" value="14" id="testHeuristicos_mAspectos__EN___mCriterios_14__codigoCriterio" type="hidden">
+	                    		EN 14 - Existe mapa del sitio para acceder directamente a los contenidos sin navegar</td>
+	                   			<td> <select name="mAspectos['EN'].mCriterios[14].valor.codigo" id="testHeuristicos_mAspectos__EN___mCriterios_14__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S" selected="selected">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			   
+	               </tbody></table> 
+	        
+	        		<p><input name="mAspectos['RO'].codigoAspecto" value="RO" id="testHeuristicos_mAspectos__RO___codigoAspecto" type="hidden"></p>
+				    <table class="testHeuristicos">
+				        <tbody><tr>
+				            <th colspan="2"> Rotulado</th>
+				        </tr>
+				             
+				         <tr>
+				              <td> <input name="mAspectos['RO'].mCriterios[1].codigoCriterio" value="1" id="testHeuristicos_mAspectos__RO___mCriterios_1__codigoCriterio" type="hidden">
+	                    		RO 1 - Rótulos significativos</td>
+	                   			<td> <select name="mAspectos['RO'].mCriterios[1].valor.codigo" id="testHeuristicos_mAspectos__RO___mCriterios_1__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['RO'].mCriterios[2].codigoCriterio" value="2" id="testHeuristicos_mAspectos__RO___mCriterios_2__codigoCriterio" type="hidden">
+	                    		RO 2 - Sistema de rotulado controlado y preciso</td>
+	                   			<td> <select name="mAspectos['RO'].mCriterios[2].valor.codigo" id="testHeuristicos_mAspectos__RO___mCriterios_2__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['RO'].mCriterios[3].codigoCriterio" value="3" id="testHeuristicos_mAspectos__RO___mCriterios_3__codigoCriterio" type="hidden">
+	                    		RO 3 - Título de las páginas, correcto y planificado</td>
+	                   			<td> <select name="mAspectos['RO'].mCriterios[3].valor.codigo" id="testHeuristicos_mAspectos__RO___mCriterios_3__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['RO'].mCriterios[4].codigoCriterio" value="4" id="testHeuristicos_mAspectos__RO___mCriterios_4__codigoCriterio" type="hidden">
+	                    		RO 4 - URL página principal correcta, clara y fácil de recordar</td>
+	                   			<td> <select name="mAspectos['RO'].mCriterios[4].valor.codigo" id="testHeuristicos_mAspectos__RO___mCriterios_4__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3" selected="selected">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['RO'].mCriterios[5].codigoCriterio" value="5" id="testHeuristicos_mAspectos__RO___mCriterios_5__codigoCriterio" type="hidden">
+	                    		RO 5 - URLs de páginas internas claras</td>
+	                   			<td> <select name="mAspectos['RO'].mCriterios[5].valor.codigo" id="testHeuristicos_mAspectos__RO___mCriterios_5__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['RO'].mCriterios[6].codigoCriterio" value="6" id="testHeuristicos_mAspectos__RO___mCriterios_6__codigoCriterio" type="hidden">
+	                    		RO 6 - URLs de páginas internas permanentes</td>
+	                   			<td> <select name="mAspectos['RO'].mCriterios[6].valor.codigo" id="testHeuristicos_mAspectos__RO___mCriterios_6__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			   
+	               </tbody></table> 
+	        
+	        		<p><input name="mAspectos['LA'].codigoAspecto" value="LA" id="testHeuristicos_mAspectos__LA___codigoAspecto" type="hidden"></p>
+				    <table class="testHeuristicos">
+				        <tbody><tr>
+				            <th colspan="2"> Layout de la página</th>
+				        </tr>
+				             
+				         <tr>
+				              <td> <input name="mAspectos['LA'].mCriterios[1].codigoCriterio" value="1" id="testHeuristicos_mAspectos__LA___mCriterios_1__codigoCriterio" type="hidden">
+	                    		LA 1 - Se aprovechan las zonas de alta jerarquía 
+informativa de la página para contenidos de mayor relevancia</td>
+	                   			<td> <select name="mAspectos['LA'].mCriterios[1].valor.codigo" id="testHeuristicos_mAspectos__LA___mCriterios_1__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['LA'].mCriterios[2].codigoCriterio" value="2" id="testHeuristicos_mAspectos__LA___mCriterios_2__codigoCriterio" type="hidden">
+	                    		LA 2 - Se ha evitado la sobrecarga informativa</td>
+	                   			<td> <select name="mAspectos['LA'].mCriterios[2].valor.codigo" id="testHeuristicos_mAspectos__LA___mCriterios_2__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['LA'].mCriterios[3].codigoCriterio" value="3" id="testHeuristicos_mAspectos__LA___mCriterios_3__codigoCriterio" type="hidden">
+	                    		LA 3 - Es una interfaz limpia, sin ruido visual</td>
+	                   			<td> <select name="mAspectos['LA'].mCriterios[3].valor.codigo" id="testHeuristicos_mAspectos__LA___mCriterios_3__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['LA'].mCriterios[4].codigoCriterio" value="4" id="testHeuristicos_mAspectos__LA___mCriterios_4__codigoCriterio" type="hidden">
+	                    		LA 4 - Existen zonas en "blanco" entre los 
+objetos informativos de la página para poder descansar la vista</td>
+	                   			<td> <select name="mAspectos['LA'].mCriterios[4].valor.codigo" id="testHeuristicos_mAspectos__LA___mCriterios_4__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['LA'].mCriterios[5].codigoCriterio" value="5" id="testHeuristicos_mAspectos__LA___mCriterios_5__codigoCriterio" type="hidden">
+	                    		LA 5 - Uso correcto del espacio visual de la página</td>
+	                   			<td> <select name="mAspectos['LA'].mCriterios[5].valor.codigo" id="testHeuristicos_mAspectos__LA___mCriterios_5__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3" selected="selected">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['LA'].mCriterios[6].codigoCriterio" value="6" id="testHeuristicos_mAspectos__LA___mCriterios_6__codigoCriterio" type="hidden">
+	                    		LA 6 - Se utiliza correctamente la jerarquía 
+visual para expresar las relaciones del tipo "parte de" entre los 
+elementos de la página</td>
+	                   			<td> <select name="mAspectos['LA'].mCriterios[6].valor.codigo" id="testHeuristicos_mAspectos__LA___mCriterios_6__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6" selected="selected">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['LA'].mCriterios[7].codigoCriterio" value="7" id="testHeuristicos_mAspectos__LA___mCriterios_7__codigoCriterio" type="hidden">
+	                    		LA 7 - Se ha controlado la longitud de página</td>
+	                   			<td> <select name="mAspectos['LA'].mCriterios[7].valor.codigo" id="testHeuristicos_mAspectos__LA___mCriterios_7__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['LA'].mCriterios[8].codigoCriterio" value="8" id="testHeuristicos_mAspectos__LA___mCriterios_8__codigoCriterio" type="hidden">
+	                    		LA 8 - La versión impresa de la página es correcta</td>
+	                   			<td> <select name="mAspectos['LA'].mCriterios[8].valor.codigo" id="testHeuristicos_mAspectos__LA___mCriterios_8__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['LA'].mCriterios[9].codigoCriterio" value="9" id="testHeuristicos_mAspectos__LA___mCriterios_9__codigoCriterio" type="hidden">
+	                    		LA 9 - El texto de la página se lee sin dificultad</td>
+	                   			<td> <select name="mAspectos['LA'].mCriterios[9].valor.codigo" id="testHeuristicos_mAspectos__LA___mCriterios_9__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['LA'].mCriterios[10].codigoCriterio" value="10" id="testHeuristicos_mAspectos__LA___mCriterios_10__codigoCriterio" type="hidden">
+	                    		LA 10 - Se ha evitado el texto parpadeante / deslizante</td>
+	                   			<td> <select name="mAspectos['LA'].mCriterios[10].valor.codigo" id="testHeuristicos_mAspectos__LA___mCriterios_10__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			   
+	               </tbody></table> 
+	        
+	        		<p><input name="mAspectos['EF'].codigoAspecto" value="EF" id="testHeuristicos_mAspectos__EF___codigoAspecto" type="hidden"></p>
+				    <table class="testHeuristicos">
+				        <tbody><tr>
+				            <th colspan="2"> Entendibilidad y Facilidad en la interacción</th>
+				        </tr>
+				             
+				         <tr>
+				              <td> <input name="mAspectos['EF'].mCriterios[1].codigoCriterio" value="1" id="testHeuristicos_mAspectos__EF___mCriterios_1__codigoCriterio" type="hidden">
+	                    		EF 1 - Se emplea un lenguaje claro y conciso</td>
+	                   			<td> <select name="mAspectos['EF'].mCriterios[1].valor.codigo" id="testHeuristicos_mAspectos__EF___mCriterios_1__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EF'].mCriterios[2].codigoCriterio" value="2" id="testHeuristicos_mAspectos__EF___mCriterios_2__codigoCriterio" type="hidden">
+	                    		EF 2 - Lenguaje amigable, familiar y cercano</td>
+	                   			<td> <select name="mAspectos['EF'].mCriterios[2].valor.codigo" id="testHeuristicos_mAspectos__EF___mCriterios_2__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EF'].mCriterios[3].codigoCriterio" value="3" id="testHeuristicos_mAspectos__EF___mCriterios_3__codigoCriterio" type="hidden">
+	                    		EF 3 - Cada párrafo expresa una idea</td>
+	                   			<td> <select name="mAspectos['EF'].mCriterios[3].valor.codigo" id="testHeuristicos_mAspectos__EF___mCriterios_3__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EF'].mCriterios[4].codigoCriterio" value="4" id="testHeuristicos_mAspectos__EF___mCriterios_4__codigoCriterio" type="hidden">
+	                    		EF 4 - Uso consistente de los controles de la interfaz</td>
+	                   			<td> <select name="mAspectos['EF'].mCriterios[4].valor.codigo" id="testHeuristicos_mAspectos__EF___mCriterios_4__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EF'].mCriterios[5].codigoCriterio" value="5" id="testHeuristicos_mAspectos__EF___mCriterios_5__codigoCriterio" type="hidden">
+	                    		EF 5 - Metáforas visuales reconocibles y comprensibles por cualquier usuario (ej: iconos)</td>
+	                   			<td> <select name="mAspectos['EF'].mCriterios[5].valor.codigo" id="testHeuristicos_mAspectos__EF___mCriterios_5__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EF'].mCriterios[6].codigoCriterio" value="6" id="testHeuristicos_mAspectos__EF___mCriterios_6__codigoCriterio" type="hidden">
+	                    		EF 6 - Si se usan menús desplegables, orden coherente o alfabético</td>
+	                   			<td> <select name="mAspectos['EF'].mCriterios[6].valor.codigo" id="testHeuristicos_mAspectos__EF___mCriterios_6__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EF'].mCriterios[7].codigoCriterio" value="7" id="testHeuristicos_mAspectos__EF___mCriterios_7__codigoCriterio" type="hidden">
+	                    		EF 7 - Si el usuario tiene que rellenar un campo,
+ las opciones disponibles se pueden seleccionar en vez de tener que 
+escribirlas</td>
+	                   			<td> <select name="mAspectos['EF'].mCriterios[7].valor.codigo" id="testHeuristicos_mAspectos__EF___mCriterios_7__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			   
+	               </tbody></table> 
+	        
+	        		<p><input name="mAspectos['CR'].codigoAspecto" value="CR" id="testHeuristicos_mAspectos__CR___codigoAspecto" type="hidden"></p>
+				    <table class="testHeuristicos">
+				        <tbody><tr>
+				            <th colspan="2"> Control y Retroalimentación</th>
+				        </tr>
+				             
+				         <tr>
+				              <td> <input name="mAspectos['CR'].mCriterios[1].codigoCriterio" value="1" id="testHeuristicos_mAspectos__CR___mCriterios_1__codigoCriterio" type="hidden">
+	                    		CR 1 - El usuario tiene todo el control sobre la interfaz</td>
+	                   			<td> <select name="mAspectos['CR'].mCriterios[1].valor.codigo" id="testHeuristicos_mAspectos__CR___mCriterios_1__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['CR'].mCriterios[2].codigoCriterio" value="2" id="testHeuristicos_mAspectos__CR___mCriterios_2__codigoCriterio" type="hidden">
+	                    		CR 2 - Se informa al usuario acerca de lo que está pasando</td>
+	                   			<td> <select name="mAspectos['CR'].mCriterios[2].valor.codigo" id="testHeuristicos_mAspectos__CR___mCriterios_2__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['CR'].mCriterios[3].codigoCriterio" value="3" id="testHeuristicos_mAspectos__CR___mCriterios_3__codigoCriterio" type="hidden">
+	                    		CR 3 - Se informa al usuario de lo que ha pasado</td>
+	                   			<td> <select name="mAspectos['CR'].mCriterios[3].valor.codigo" id="testHeuristicos_mAspectos__CR___mCriterios_3__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['CR'].mCriterios[4].codigoCriterio" value="4" id="testHeuristicos_mAspectos__CR___mCriterios_4__codigoCriterio" type="hidden">
+	                    		CR 4 - Existen sistemas de validación antes de 
+que el usuario envíe información para tratar de evitar errores</td>
+	                   			<td> <select name="mAspectos['CR'].mCriterios[4].valor.codigo" id="testHeuristicos_mAspectos__CR___mCriterios_4__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['CR'].mCriterios[5].codigoCriterio" value="5" id="testHeuristicos_mAspectos__CR___mCriterios_5__codigoCriterio" type="hidden">
+	                    		CR 5 - Cuando se produce un error, se informa de 
+forma clara y no alarmista al usuario de lo ocurrido y de cómo 
+solucionar el problema</td>
+	                   			<td> <select name="mAspectos['CR'].mCriterios[5].valor.codigo" id="testHeuristicos_mAspectos__CR___mCriterios_5__valor_codigo">
+    <option value=""></option>
+    <option value="NTS" selected="selected">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['CR'].mCriterios[6].codigoCriterio" value="6" id="testHeuristicos_mAspectos__CR___mCriterios_6__codigoCriterio" type="hidden">
+	                    		CR 6 - Se ha controlado el tiempo de respuesta</td>
+	                   			<td> <select name="mAspectos['CR'].mCriterios[6].valor.codigo" id="testHeuristicos_mAspectos__CR___mCriterios_6__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['CR'].mCriterios[7].codigoCriterio" value="7" id="testHeuristicos_mAspectos__CR___mCriterios_7__codigoCriterio" type="hidden">
+	                    		CR 7 - Se ha evitado que las ventanas del sitio anulen o se superpongan a la del navegador</td>
+	                   			<td> <select name="mAspectos['CR'].mCriterios[7].valor.codigo" id="testHeuristicos_mAspectos__CR___mCriterios_7__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP" selected="selected">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['CR'].mCriterios[8].codigoCriterio" value="8" id="testHeuristicos_mAspectos__CR___mCriterios_8__codigoCriterio" type="hidden">
+	                    		CR 8 - Se ha evitado la proliferación de ventanas en la pantalla del usuario</td>
+	                   			<td> <select name="mAspectos['CR'].mCriterios[8].valor.codigo" id="testHeuristicos_mAspectos__CR___mCriterios_8__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S" selected="selected">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['CR'].mCriterios[9].codigoCriterio" value="9" id="testHeuristicos_mAspectos__CR___mCriterios_9__codigoCriterio" type="hidden">
+	                    		CR 9 - Se ha evitado la descarga por parte del usuario de plug-ins adicionales</td>
+	                   			<td> <select name="mAspectos['CR'].mCriterios[9].valor.codigo" id="testHeuristicos_mAspectos__CR___mCriterios_9__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['CR'].mCriterios[10].codigoCriterio" value="10" id="testHeuristicos_mAspectos__CR___mCriterios_10__codigoCriterio" type="hidden">
+	                    		CR 10 - Si existen tareas de varios pasos, se 
+indica al usuario en cual está y cuantos faltan para completar la tarea</td>
+	                   			<td> <select name="mAspectos['CR'].mCriterios[10].valor.codigo" id="testHeuristicos_mAspectos__CR___mCriterios_10__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			   
+	               </tbody></table> 
+	        
+	        		<p><input name="mAspectos['EM'].codigoAspecto" value="EM" id="testHeuristicos_mAspectos__EM___codigoAspecto" type="hidden"></p>
+				    <table class="testHeuristicos">
+				        <tbody><tr>
+				            <th colspan="2"> Elementos Multimedia</th>
+				        </tr>
+				             
+				         <tr>
+				              <td> <input name="mAspectos['EM'].mCriterios[1].codigoCriterio" value="1" id="testHeuristicos_mAspectos__EM___mCriterios_1__codigoCriterio" type="hidden">
+	                    		EM 1 - Fotografías bien recortadas</td>
+	                   			<td> <select name="mAspectos['EM'].mCriterios[1].valor.codigo" id="testHeuristicos_mAspectos__EM___mCriterios_1__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EM'].mCriterios[2].codigoCriterio" value="2" id="testHeuristicos_mAspectos__EM___mCriterios_2__codigoCriterio" type="hidden">
+	                    		EM 2 - Fotografías comprensibles</td>
+	                   			<td> <select name="mAspectos['EM'].mCriterios[2].valor.codigo" id="testHeuristicos_mAspectos__EM___mCriterios_2__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EM'].mCriterios[3].codigoCriterio" value="3" id="testHeuristicos_mAspectos__EM___mCriterios_3__codigoCriterio" type="hidden">
+	                    		EM 3 - Fotografías con correcta resolución</td>
+	                   			<td> <select name="mAspectos['EM'].mCriterios[3].valor.codigo" id="testHeuristicos_mAspectos__EM___mCriterios_3__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S" selected="selected">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EM'].mCriterios[4].codigoCriterio" value="4" id="testHeuristicos_mAspectos__EM___mCriterios_4__codigoCriterio" type="hidden">
+	                    		EM 4 - El uso de imágenes o animaciones proporciona algún tipo de valor añadido</td>
+	                   			<td> <select name="mAspectos['EM'].mCriterios[4].valor.codigo" id="testHeuristicos_mAspectos__EM___mCriterios_4__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S" selected="selected">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EM'].mCriterios[5].codigoCriterio" value="5" id="testHeuristicos_mAspectos__EM___mCriterios_5__codigoCriterio" type="hidden">
+	                    		EM 5 - Se ha evitado el uso de animaciones cíclicas</td>
+	                   			<td> <select name="mAspectos['EM'].mCriterios[5].valor.codigo" id="testHeuristicos_mAspectos__EM___mCriterios_5__valor_codigo">
+    <option value=""></option>
+    <option value="NTS" selected="selected">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['EM'].mCriterios[6].codigoCriterio" value="6" id="testHeuristicos_mAspectos__EM___mCriterios_6__codigoCriterio" type="hidden">
+	                    		EM 6 - El uso de sonido proporciona algún tipo de valor añadido</td>
+	                   			<td> <select name="mAspectos['EM'].mCriterios[6].valor.codigo" id="testHeuristicos_mAspectos__EM___mCriterios_6__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			   
+	               </tbody></table> 
+	        
+	        		<p><input name="mAspectos['BU'].codigoAspecto" value="BU" id="testHeuristicos_mAspectos__BU___codigoAspecto" type="hidden"></p>
+				    <table class="testHeuristicos">
+				        <tbody><tr>
+				            <th colspan="2"> Búsqueda</th>
+				        </tr>
+				             
+				         <tr>
+				              <td> <input name="mAspectos['BU'].mCriterios[1].codigoCriterio" value="1" id="testHeuristicos_mAspectos__BU___mCriterios_1__codigoCriterio" type="hidden">
+	                    		BU 1 - Si es necesaria, se encuentra accesible desde todas las páginas del sitio</td>
+	                   			<td> <select name="mAspectos['BU'].mCriterios[1].valor.codigo" id="testHeuristicos_mAspectos__BU___mCriterios_1__valor_codigo">
+    <option value=""></option>
+    <option value="NTS" selected="selected">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['BU'].mCriterios[2].codigoCriterio" value="2" id="testHeuristicos_mAspectos__BU___mCriterios_2__codigoCriterio" type="hidden">
+	                    		BU 2 - Es fácilmente reconocible como tal</td>
+	                   			<td> <select name="mAspectos['BU'].mCriterios[2].valor.codigo" id="testHeuristicos_mAspectos__BU___mCriterios_2__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2" selected="selected">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['BU'].mCriterios[3].codigoCriterio" value="3" id="testHeuristicos_mAspectos__BU___mCriterios_3__codigoCriterio" type="hidden">
+	                    		BU 3 - Se encuentra fácilmente accesible</td>
+	                   			<td> <select name="mAspectos['BU'].mCriterios[3].valor.codigo" id="testHeuristicos_mAspectos__BU___mCriterios_3__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3" selected="selected">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['BU'].mCriterios[4].codigoCriterio" value="4" id="testHeuristicos_mAspectos__BU___mCriterios_4__codigoCriterio" type="hidden">
+	                    		BU 4 - La caja de texto es lo suficientemente ancha</td>
+	                   			<td> <select name="mAspectos['BU'].mCriterios[4].valor.codigo" id="testHeuristicos_mAspectos__BU___mCriterios_4__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3" selected="selected">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['BU'].mCriterios[5].codigoCriterio" value="5" id="testHeuristicos_mAspectos__BU___mCriterios_5__codigoCriterio" type="hidden">
+	                    		BU 5 - Sistema de búsqueda simple y claro</td>
+	                   			<td> <select name="mAspectos['BU'].mCriterios[5].valor.codigo" id="testHeuristicos_mAspectos__BU___mCriterios_5__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4" selected="selected">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['BU'].mCriterios[6].codigoCriterio" value="6" id="testHeuristicos_mAspectos__BU___mCriterios_6__codigoCriterio" type="hidden">
+	                    		BU 6 - Permite la búsqueda avanzada</td>
+	                   			<td> <select name="mAspectos['BU'].mCriterios[6].valor.codigo" id="testHeuristicos_mAspectos__BU___mCriterios_6__valor_codigo">
+    <option value=""></option>
+    <option value="0" selected="selected">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['BU'].mCriterios[7].codigoCriterio" value="7" id="testHeuristicos_mAspectos__BU___mCriterios_7__codigoCriterio" type="hidden">
+	                    		BU 7 - Muestra los resultados de la búsqueda de forma comprensible para el usuario</td>
+	                   			<td> <select name="mAspectos['BU'].mCriterios[7].valor.codigo" id="testHeuristicos_mAspectos__BU___mCriterios_7__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8" selected="selected">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['BU'].mCriterios[8].codigoCriterio" value="8" id="testHeuristicos_mAspectos__BU___mCriterios_8__codigoCriterio" type="hidden">
+	                    		BU 8 - Asiste al usuario en caso de no poder ofrecer resultados para una consultada dada</td>
+	                   			<td> <select name="mAspectos['BU'].mCriterios[8].valor.codigo" id="testHeuristicos_mAspectos__BU___mCriterios_8__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10" selected="selected">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			   
+	               </tbody></table> 
+	        
+	        		<p><input name="mAspectos['AY'].codigoAspecto" value="AY" id="testHeuristicos_mAspectos__AY___codigoAspecto" type="hidden"></p>
+				    <table class="testHeuristicos">
+				        <tbody><tr>
+				            <th colspan="2"> Ayuda</th>
+				        </tr>
+				             
+				         <tr>
+				              <td> <input name="mAspectos['AY'].mCriterios[1].codigoCriterio" value="1" id="testHeuristicos_mAspectos__AY___mCriterios_1__codigoCriterio" type="hidden">
+	                    		AY 1 - El enlace a la sección de Ayuda, colocado en una zona visible y "estándar"</td>
+	                   			<td> <select name="mAspectos['AY'].mCriterios[1].valor.codigo" id="testHeuristicos_mAspectos__AY___mCriterios_1__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP" selected="selected">NPP</option>
+    <option value="NPI">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AY'].mCriterios[2].codigoCriterio" value="2" id="testHeuristicos_mAspectos__AY___mCriterios_2__codigoCriterio" type="hidden">
+	                    		AY 2 - Fácil acceso y retorno al/del sistema de ayuda</td>
+	                   			<td> <select name="mAspectos['AY'].mCriterios[2].valor.codigo" id="testHeuristicos_mAspectos__AY___mCriterios_2__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3" selected="selected">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AY'].mCriterios[3].codigoCriterio" value="3" id="testHeuristicos_mAspectos__AY___mCriterios_3__codigoCriterio" type="hidden">
+	                    		AY 3 - Se ofrece ayuda contextual en tareas complejas</td>
+	                   			<td> <select name="mAspectos['AY'].mCriterios[3].valor.codigo" id="testHeuristicos_mAspectos__AY___mCriterios_3__valor_codigo">
+    <option value=""></option>
+    <option value="NTS">NTS</option>
+    <option value="NEP">NEP</option>
+    <option value="NPP">NPP</option>
+    <option value="NPI" selected="selected">NPI</option>
+    <option value="S">S</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AY'].mCriterios[4].codigoCriterio" value="4" id="testHeuristicos_mAspectos__AY___mCriterios_4__codigoCriterio" type="hidden">
+	                    		AY 4 - FAQs (si la hay), correcta la elección como la redacción de las preguntas</td>
+	                   			<td> <select name="mAspectos['AY'].mCriterios[4].valor.codigo" id="testHeuristicos_mAspectos__AY___mCriterios_4__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1" selected="selected">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			 
+				         <tr>
+				              <td> <input name="mAspectos['AY'].mCriterios[5].codigoCriterio" value="5" id="testHeuristicos_mAspectos__AY___mCriterios_5__codigoCriterio" type="hidden">
+	                    		AY 5 - FAQs (si la hay), correcta la redacción de las respuestas</td>
+	                   			<td> <select name="mAspectos['AY'].mCriterios[5].valor.codigo" id="testHeuristicos_mAspectos__AY___mCriterios_5__valor_codigo">
+    <option value=""></option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5" selected="selected">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="NA">NA</option>
+    <option value=""></option>
+
+
+</select></td>
+						</tr>
+											
+	            			   
+	               </tbody></table> 
+	         
+	        <p class="observaciones"><label for="testHeuristicos_observaciones" class="label">Observaciones:</label><textarea name="observaciones" cols="" rows="" id="testHeuristicos_observaciones">Eesto es una prueba para ver resultados</textarea></p>
+				        
+	      <p> <input id="testHeuristicos_redirect_action_cancelarTest" name="redirect-action:cancelarTest" value="Cancelar" type="submit">
+
+	      	  <input id="testHeuristicos_testHeuristicos" name="testHeuristicos" value="Aceptar" type="submit">
+
+	       </p> 
+	</form>
+
+
+
+
+   
+
+
+ 	
+				<p class="clear"></p>
+			</div>	
+		</div>
+		
+	
+	<p class="clear"></p>
+	
+	<div id="footer">
+		<ul>
+			<li><a href="https://156.35.98.176/prometheus/evaluador/acercaDe">Acerca de</a></li>
+			<li><a href="https://156.35.98.176/prometheus/evaluador/contacto">Contacto</a></li>
+			<li><a href="https://156.35.98.176/prometheus/evaluador/avisoLegal">Términos y condiciones</a></li>
+			<li>Última modificación: 10 de Septiembre del 2011</li>
+		</ul>
+
+	
+	<ul class="letraPequeña">
+		<li><a href="http://jigsaw.w3.org/css-validator/check/referer">W3C CSS 2.1</a></li>
+		<li><a href="http://validator.w3.org/check?uri=referer">W3C XHTML 1.0 Strict</a></li>		
+	</ul>
+	</div>	
+	
+   
+	
+	
+</body></html>
